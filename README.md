@@ -16,16 +16,16 @@ RememberMed is a medication reminder that works **fully offline**. This policy d
 how data is handled.
 
 #### 1. Data the app uses
-You enter, on your own device: medication name, dose, route, interval, treatment start and
-duration, notes, follow-up dates and the record of each dose. In the nursing module, also
-the data of the patients you register — name or initials, bed, age, allergies and notes.
+You enter, on your own device, the information needed to schedule and track a treatment,
+such as the medication and its dosing details, notes and the record of each dose. In the
+nursing module, you may also enter data about the patients you register, including
+health-related information.
 
 #### 2. Where the data stays
 **On your device only.** The app has no server, creates no account, asks for no login and
-sends nothing over the internet. There is no advertising and no usage analytics.
-
-Android automatic backup is **turned off** for this app: data is not copied to the cloud nor
-transferred to another device.
+sends nothing over the internet. There is no advertising and no usage analytics. Automatic
+cloud backup is turned off: data is not copied to the cloud nor transferred to another
+device.
 
 #### 3. Third-party data (nursing module)
 Health data is sensitive personal data (Brazil's Law 13.709/2018 — LGPD — and equivalent
@@ -37,19 +37,15 @@ leaves the device. Professional confidentiality still applies inside the app.
 Recommendation: record initials or the bed number instead of full names.
 
 #### 4. Export
-Reports and calendar files (`.ics`) leave the device only when **you** choose to export
-them. From then on they are under your control and subject to the rules of wherever you
-send them. The "Google Calendar" button opens the browser with the event filled in; nothing
-is sent without your confirmation inside Google Calendar.
+Reports and calendar files leave the device only when **you** choose to export them. From
+then on they are under your control and subject to the rules of wherever you send them.
+Nothing is sent anywhere without an action you take yourself.
 
 #### 5. Permissions
-
-| Permission | What for | If you deny it |
-|---|---|---|
-| Notifications | alert you at each dose | alerts keep showing inside the app |
-| Exact alarm | alert on time, not within an approximate window | the app falls back to approximate scheduling |
-| Run at startup | reschedule alarms after the phone restarts | — (without it, the schedule would vanish at the first restart) |
-| Vibration | vibrate with the alert | alert without vibration |
+The app requests only the permissions needed for the features you use — such as alerting
+you at each dose and keeping your schedule working after the device restarts. Where your
+device allows it, a permission can be denied, and the app continues to work with reduced
+alerting.
 
 The app does **not** request internet, location, contacts, camera, microphone, file or
 installed-apps access.
@@ -99,7 +95,7 @@ That is a design decision, not a missing feature. An app that calculated or reco
 
 #### 4. Alarms can fail
 
-Alerts depend on your device's operating system. Battery saving, do-not- disturb, shutdown, missing permissions, a system update or simply clearing the app from memory can delay or prevent an alarm. No reminder app controls this.
+Alerts depend on your device's operating system. Battery saving, do-not-disturb, shutdown, missing permissions, a system update or simply clearing the app from memory can delay or prevent an alarm. No reminder app controls this.
 
 Treat RememberMed as support, never as the only safeguard. Where a delayed dose carries risk, keep a second form of control.
 
@@ -126,7 +122,7 @@ Practical advice: use initials or the bed number instead of full names, and reco
 
 RememberMed works offline. There is no account, no server, nothing is sent over the internet, and there is no advertising or analytics. Everything you type is stored on your device only.
 
-Reports and calendar files (.ics) leave the device only when you choose to export them — from then on they are under your control and subject to the rules of wherever you send them. Uninstalling the app erases the local data; the developer cannot recover it.
+Reports and calendar files leave the device only when you choose to export them — from then on they are under your control and subject to the rules of wherever you send them. Uninstalling the app erases the local data; the developer cannot recover it.
 
 #### 8. Intellectual property
 
@@ -159,7 +155,6 @@ Questions about these terms: ongsuporteunionmundial@gmail.com.
 There is no account and no server copy, so deletion happens on your device:
 
 - **One item:** open the medication, protocol or patient and tap **Delete**.
-- **Everything:** uninstall the app, or clear its data under
-  *Android Settings → Apps → RememberMed → Storage → Clear data*.
+- **Everything:** uninstall the app, or clear its data from your device's app settings.
 
 Contact: **ongsuporteunionmundial@gmail.com**
