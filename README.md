@@ -73,4 +73,8 @@ There is no account and no server copy, so deletion happens on your device:
 - **One item:** open the medication, protocol or patient and tap **Delete**.
 - **Everything:** uninstall the app, or clear its data from your device's app settings.
 
-Contact: **ongsuporteunionmundial@gmail.com**
+Questions about this policy: **ongsuporteunionmundial@gmail.com**
+
+---
+
+*RememberMed — Marcelo Rodrigo Alexandre*
